@@ -1,3 +1,69 @@
 body {
-	background:blue;
+	background:lightblue;
+	font-family: "Courier New";
 }
+
+header {
+	background-image: url("images/navbar.jpg");
+	padding: 20px;
+}
+
+nav {
+	font-size: 36px;
+	font-weight: bold;
+	padding-right: 20px;
+	padding-left: 20px;
+	background-color: #FFFFFF;
+	opacity:.5;
+}
+
+a:link{
+	color:green;
+
+}
+
+a:visited{
+	color:red;
+}
+
+a:hover {
+	color:yellow;
+}
+
+h1 {
+	font-family: "Trebuchet";
+}
+
+img {
+	max-width: 50%;
+}
+
+img#purple {
+	float:left;
+}
+
+img#orange {
+	float:right;
+}
+
+section#whywear {
+	max-width: 50%;
+	padding: 25%;
+	margin-top: 20px;
+}
+
+.saywhat {
+	background-color: white;
+	opacity: .5;
+}
+
+@media screen and (device-width: 320px) {
+	body{
+		background-color:violet;
+	}
+	img {
+		min-width: 100%;
+		margin-top:20px;
+		margin-bottom:20px;
+	}
+} 
